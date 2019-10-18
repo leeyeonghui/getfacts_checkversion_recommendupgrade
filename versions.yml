@@ -1,0 +1,11 @@
+---
+#Author: Lee Yeong Hui 
+#Host IP address
+
+- model: EX2300-C-12P
+  version: 18.2R3-S1.7 
+- model: EX2300-24P
+  version: 18.2R3-S1.7
+- model: EX3400-24P 
+  version: 18.3R1-S1.4
+ 
