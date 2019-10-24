@@ -36,7 +36,7 @@ aListofDevice = []
 # Connect to each device to get data 
 for host in hosts: 
     try:
-        print('Initiating Check on ' + host)
+        print('Collecting data on ' + host)
         #use port 22 if 830 does not work/set system services netconf ssh is not configured
         dev = Device(host=host, user=userID, password=userPW, port="22") 
         dev.open()
